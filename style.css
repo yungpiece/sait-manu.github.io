@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+
+}
+
+.header {
+    align-items: baseline;
+    padding: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 45px;
+}
+
+.tech {
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.subheader {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+.header1 {
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+.header2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.text2 {
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "▶ ";
+    color: purple;
+}
+
+
+.headernew2 {
+    text-align: center;
+}
+
+.uvg1 {
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightblue;
+}
+
+.tdcolom2 {
+    margin-bottom: 10px;
+}
+
+.td1 {
+    line-height: 25px;
+}
+
+.na {
+    font-weight: bold;
+}
+
+.p1 {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.geo {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.krg {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.kzkz {
+    border-bottom: 2px solid black;
+}
+
+.td2 {
+    line-height: 30px;
+}
+
+.mme {
+    border-bottom: 2px solid black;
+    display: inline-block
+}
